@@ -11,5 +11,7 @@ Sugar is {adjective},
 And so are you!
 """
 
+colour = input("Enter a colour: ")
+adjective = input("Enter an adjective: ")
 # Todo: print the final text
-print(text)
+print(text.format(colour=colour, adjective=adjective))
